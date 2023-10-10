@@ -15,3 +15,8 @@ p{
     color:grey;
     font-size: 20px;
 }
+.backimg{
+    background-image:url("lujiazui.jpg");
+    background-attachment: fixed;
+    background-size:100%;
+}
