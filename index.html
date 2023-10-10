@@ -1,8 +1,14 @@
 <!DOCTYPE html>
+<html>
 <head>
     <div><title>上海古今</title>
         <html lang="zh-CN">
-        <link href="style.css" rel="stylesheet" type="text/css">    
+
+            <!--引入css、js--> 
+        <link href="style.css" rel="stylesheet" type="text/css"> 
+
+         <!--图标--> 
+        <link rel="icon" type="image/x-icon" href="img/微信图片_20231010195551.jpg" />   
         <meta charset="UTF-8"></div>
         <script>
             function getD1(){
@@ -13,9 +19,14 @@
             setInterval("getD1();",1000);
             </script>
 </head>
-<body>
-    <div>
+<body onload=getD1()>
         <div id="datetime"></div>
-        <h2>上海古今</h2>
-    </div>
+        <strong><h2>上海古今</h2></strong>
+        <p class="text">上海在6000年前曾是一片原始村落。古代的先民生息、劳动、繁衍在这块富饶的滨海土地上。751年，上海西部置华亭县。
+            1291年，上海县正式建立。<br/><br/>清康熙以来，“海禁”慢慢解除，上海逐渐发展为有“东南都会”之称的繁荣城镇。
+            近代，列强的势力接踵而来，上海被迫对外开放，城市的发展打上了深深的半殖民地的烙印。<br/><br/>解放后，上海坚持以“海纳百川”的胸怀推动着工商业的发展、市政建设的拓展和文明的输入，使其一跃而成现代著名的经济、金融、文化中心，一个著名的国际大都市。</p>
+
+            <div align="center"><img src="img/微信图片_20231010195614.jpg" alt="上海市中心的东方明珠" width="280" height="400" class="center"></div>
+
 </body>
+</html>
